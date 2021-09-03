@@ -215,6 +215,6 @@ for root, dirs, files in os.walk("input_images/"):
         L = [str(res[0]), str(res[1]), str(res[2]), "\n", str(res[3]), str(res[4]),
              str(res[5]), "\n", str(res[6]), str(res[7]), str(res[8]), "\n"]
         # WRITING THE OUTPUT FILE
-        file = open("output/output_"+str(path[13:-3]+".txt"), "w")
+        file = open("output/output_"+str(path[13:-3]+"txt"), "w")
         file.writelines(L)
         file.close
